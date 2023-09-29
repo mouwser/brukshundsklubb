@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nässjö Brukshundklubb</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+     
+<div class="flex-header">
+
+    <div id="header">
+        <h1>Välkommen till Nässjö Brukshundklubb</h1>
+        <p>här kan du logga in om du är medlem och läsa om våra regler</p>
+    </div>
+</div>
+<!--login labels och inputs-->
+<div class="flex-login">
+    <div id="login">
+        <form id="login-form">
+            <label for="username">namn:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">lösenord:</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="button" id="login-button">Logga in</button>
+        </form>
+        <p id="error"></p>
+    </div>
+
+    <div id="inloggad" style="display: none;">
+        <p id="login-confirm"></p>
+        <button id="logout">Logga ut</button>
+    </div>
+    
+</div>
+    
+<div class="flex-regler">
+    <div id="regler">
+        <h3>Våra ordningsregler </h3>
+        <p>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Cras condimentum ipsum augue, nec consectetur lorem posuere quis. 
+            Donec arcu ligula, tempor vel metus eget, lobortis pretium arcu. 
+            Curabitur fermentum sed arcu a fermentum. Aenean ac euismod arcu, nec egestas erat. Pellentesque eget leo non eros condimentum vestibulum. Vestibulum mollis auctor massa, in luctus felis dictum at. Phasellus interdum sem in mattis facilisis. Fusce tristique vel dui ac facilisis. Sed at nisl vel est finibus interdum.
+            Nulla non augue ullamcorper, pharetra quam vel, pretium augue. 
+            Mauris eget erat felis.
+            
+            Quisque facilisis felis massa, nec pellentesque elit pellentesque ultricies.
+            Etiam hendrerit velit non finibus sagittis.
+            Duis euismod elementum viverra.
+            Curabitur aliquet sed diam in tincidunt. 
+            Aenean faucibus vestibulum ante, sit amet ultrices tortor laoreet et. 
+            Phasellus eu tortor vel tortor iaculis accumsan. 
+            Vivamus vel erat et leo malesuada tincidunt. 
+            Duis dapibus lacus sapien, sit amet congue sapien finibus porttitor. 
+            Integer quis tellus orci. 
+            Praesent elementum, erat et rutrum ultrices, mi turpis cursus erat, nec condimentum lacus est non ligula. 
+            Fusce tellus dui, pretium ac scelerisque nec, porttitor viverra purus. 
+            Vestibulum elementum, nisi ac consequat aliquet, justo magna facilisis elit, id pharetra mi nisi eu urna. 
+            Donec in ante maximus, ultrices risus non, auctor dolor. 
+            Cras eget ipsum dapibus, cursus mi a, varius lorem. 
+            Morbi quam lectus, dapibus a mattis sed, gravida et nisl. </p>
+    </div>       
+    
+</div>
+
+ <script src="script.js"></script>
+</body>
+</html>
